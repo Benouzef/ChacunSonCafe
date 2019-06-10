@@ -1,0 +1,791 @@
+/*posituon absolute Centred*/
+html {
+  font-size: 10px;
+  width: 100%; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  width: 100%; }
+
+button {
+  border: medium none;
+  background: none;
+  cursor: pointer; }
+
+button:focus {
+  outline: none; }
+
+h2.title {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 5.4rem;
+  line-height: 6rem;
+  font-weight: 300; }
+  h2.title.black {
+    color: #000000; }
+
+.black {
+  color: #000000 !important; }
+
+h2.title span {
+  font-weight: 900; }
+
+.subtitle {
+  font-size: 3.5rem;
+  line-height: 5rem;
+  font-weight: 900; }
+
+p.text {
+  font-size: 2.5rem;
+  color: #ffffff;
+  line-height: 4rem; }
+
+.action-button {
+  border: solid 3px;
+  border-radius: 6px;
+  font-size: 2.5rem;
+  line-height: 5.5rem;
+  padding: 0 4rem;
+  font-weight: 900; }
+
+.action-button.white {
+  border-color: #FFFFFF;
+  color: #FFFFFF; }
+
+.text-black {
+  color: #000000 !important; }
+
+.text-white {
+  color: #FFFFFF !important; }
+
+.no-width-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+/*BANNER SECTION*/
+.banner-section {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  padding-bottom: 5rem;
+  background: url(../../img/main.jpg) top center no-repeat;
+  background-size: cover; }
+  .banner-section.type2 {
+    background: url(../../img/main2.jpg) top center no-repeat;
+    background-size: cover; }
+    .banner-section.type2 img {
+      margin-top: 1rem; }
+    .banner-section.type2 p {
+      font-size: 2.4em;
+      color: #FFFFFF; }
+    .banner-section.type2 p.text {
+      font-size: 3rem; }
+    .banner-section.type2 .banner-text p {
+      width: 60%; }
+
+.banner-section .logo {
+  position: absolute;
+  top: 5%;
+  left: 3%; }
+
+.banner-section > .container {
+  /*		bottom: 5%;		
+	@include centeredabsolute-horizontal;*/ }
+
+.banner-section .title {
+  text-shadow: 0px 0px 80px rgba(0, 0, 0, 0.18); }
+
+.banner-section .action-button {
+  margin: 2rem 0; }
+
+.banner-section .location-holder {
+  text-align: right; }
+
+.banner-section .location {
+  position: relative;
+  padding-left: 6rem;
+  display: inline-block;
+  color: #FFFFFF;
+  margin-right: -3rem;
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  line-height: 3rem;
+  font-weight: 900;
+  text-shadow: 0px 0px 5px black; }
+
+.banner-section .location span {
+  text-transform: none;
+  font-weight: 300; }
+
+.banner-section .location i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 6rem; }
+
+/*SECTION 2*/
+.section2 {
+  background: url(../../img/section2-bg.jpg) top center no-repeat;
+  padding: 10rem 0;
+  background-size: cover; }
+
+.section2 .title {
+  margin-bottom: 2rem; }
+
+.section2 .special-img {
+  margin-bottom: 2rem; }
+
+.section2 .subtitle {
+  margin-bottom: 2rem; }
+
+.section2 .text {
+  margin-bottom: 5rem; }
+
+.card-columns {
+  -webkit-column-count: 2;
+  column-count: 2; }
+
+/*SECTION 3*/
+.section3 {
+  padding: 10rem 0; }
+
+.section3 .title {
+  margin-bottom: 3rem; }
+
+.section3 .subtitle {
+  margin-bottom: 3rem; }
+
+.section3 .text {
+  margin-bottom: 2rem; }
+
+.section3 img {
+  margin-bottom: 2rem; }
+
+/*SECTION 4*/
+.section4 {
+  background: url(../../img/section4-bg.jpg) top center no-repeat;
+  padding: 20rem 0;
+  background-size: cover; }
+
+.section4 .title {
+  margin-bottom: 3rem; }
+
+.section4 .subtitle {
+  margin-bottom: 3rem; }
+
+.section4 .text {
+  margin-bottom: 4rem; }
+
+/*SECTION 5*/
+.circle {
+  display: inline-block;
+  width: 18rem;
+  height: 18rem;
+  border: solid 10px;
+  font-size: 5rem;
+  line-height: 16rem;
+  text-align: center;
+  border-radius: 50%; }
+
+.section5 {
+  background: url(../../img/section5-bg.jpg) top center no-repeat;
+  background-size: cover;
+  padding: 17rem 0; }
+  .section5 .title {
+    text-align: center;
+    margin-bottom: 6.4rem; }
+  .section5 .circle {
+    margin-bottom: 3rem; }
+  .section5 p {
+    font-size: 2.5rem;
+    line-height: 4rem;
+    margin-bottom: 5rem; }
+  .section5 .subtitle {
+    text-align: center; }
+  .section5 ul {
+    list-style: none;
+    padding: 0; }
+    .section5 ul li {
+      font-size: 2.5rem;
+      padding-left: 6rem;
+      padding-right: 2rem;
+      margin-bottom: 2rem;
+      position: relative; }
+      .section5 ul li:before {
+        content: "\f00c";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        position: absolute;
+        top: -1rem;
+        left: 0;
+        font-size: 3.5rem; }
+
+/*END SECTION 5*/
+/*SECTION 6*/
+.section6 {
+  background: #529cda;
+  padding: 10rem 0 6rem 0;
+  color: #FFFFFF; }
+  .section6 .title {
+    margin-bottom: 2rem; }
+  .section6 .subtitle {
+    margin-bottom: .5rem;
+    font-size: 3rem;
+    margin-top: 2rem; }
+  .section6 p {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 2rem; }
+
+/*END SECTION 6*/
+/*SECTION 7*/
+p.heart-special {
+  position: relative;
+  margin: 0; }
+  p.heart-special i {
+    font-size: 17rem; }
+  p.heart-special .background {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffcece), to(#ff6f6e));
+    background: -webkit-linear-gradient(top, #ffcece 0%, #ff6f6e 100%);
+    background: -o-linear-gradient(top, #ffcece 0%, #ff6f6e 100%);
+    background: linear-gradient(to bottom, #ffcece 0%, #ff6f6e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  p.heart-special .borderA {
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+.section7 {
+  background: #1c1c2b;
+  padding: 10rem 0 4rem 0; }
+  .section7 .text {
+    margin-bottom: 2rem; }
+
+/*END SECTION 7*/
+/*SECTION 8*/
+.section8 {
+  padding: 10rem 0; }
+  .section8 p.heart-special {
+    display: inline-block; }
+  .section8 .circle {
+    background: #ffffff; }
+  .section8 .title {
+    margin-bottom: 2rem; }
+  .section8 .subtitle {
+    margin-bottom: 8rem;
+    font-weight: 500;
+    font-style: italic; }
+  .section8 .text {
+    line-height: 3rem;
+    margin-bottom: 6rem; }
+
+.special-line {
+  position: relative; }
+  .special-line:after {
+    content: "";
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    height: 40px;
+    z-index: 0; }
+  .special-line .row {
+    z-index: 10;
+    position: relative; }
+  .special-line.left:after {
+    left: 0;
+    background: #ff5f5f;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #ff5f5f 0%, #ffb5b5 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ff5f5f 0%, #ffb5b5 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: -webkit-gradient(linear, left top, right top, from(#ff5f5f), to(#ffb5b5));
+    background: -o-linear-gradient(left, #ff5f5f 0%, #ffb5b5 100%);
+    background: linear-gradient(to right, #ff5f5f 0%, #ffb5b5 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5f5f', endColorstr='#ffb5b5',GradientType=1 );
+    /* IE6-9 */ }
+  .special-line.rigth:after {
+    right: 0;
+    background: #ffb5b5;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #ffb5b5 0%, #ffffff 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ffb5b5 0%, #ffffff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: -webkit-gradient(linear, left top, right top, from(#ffb5b5), to(#ffffff));
+    background: -o-linear-gradient(left, #ffb5b5 0%, #ffffff 100%);
+    background: linear-gradient(to right, #ffb5b5 0%, #ffffff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb5b5', endColorstr='#ffffff',GradientType=1 );
+    /* IE6-9 */ }
+
+/*END SECTION 8*/
+/*SECTION 9*/
+.section9 {
+  background: #ded8d4;
+  padding: 10rem 0; }
+  .section9 img {
+    max-width: 100%;
+    width: 100%; }
+  .section9 .title {
+    margin-bottom: 10rem; }
+
+.boxesAT > div {
+  padding: 0;
+  background: #ffffff;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column; }
+
+.boxesAT .text-content {
+  padding: 2rem; }
+  .boxesAT .text-content h5 {
+    font-size: 2.8rem;
+    line-height: 3rem;
+    font-weight: 900; }
+  .boxesAT .text-content p {
+    font-size: 2.3rem;
+    line-height: 2.5rem; }
+
+/*END SECTION 9*/
+/*SECTION 10*/
+.banner-section.section10 {
+  background: url(../../img/section10-bg.jpg) top center no-repeat;
+  background-size: cover;
+  min-height: 35vw;
+  padding-bottom: 20rem;
+  padding-top: 25rem; }
+
+/*END SECTION 10*/
+/*SECTION 11*/
+.banner-section.section11 {
+  background: url(../../img/section11-bg.jpg) top center no-repeat;
+  background-size: cover;
+  padding-top: 25rem;
+  padding-bottom: 28rem; }
+
+/*END SECTION 11*/
+/*SECTION 12*/
+.banner-section.section12 {
+  background: url(../../img/section12-bg.jpg) top center no-repeat;
+  background-size: cover;
+  padding-bottom: 28rem; }
+
+/*END SECTION 12*/
+/*SECTION 13*/
+.banner-section.section13 {
+  background: url(../../img/section13-bg.jpg) top center no-repeat;
+  background-size: cover;
+  min-height: 5vw; }
+  .banner-section.section13 .banner-text {
+    padding: 23rem 0; }
+
+/*END SECTION 13*/
+/* SECTION 14*/
+.section14 {
+  background: #94c11c;
+  padding: 10rem 0; }
+  .section14 img {
+    max-width: 17rem; }
+  .section14 .title {
+    padding-top: 1rem; }
+  .section14 .s14text {
+    margin-top: 2rem; }
+
+/*END SECTION 14*/
+/*SECTION 15*/
+.section15 {
+  position: relative; }
+  .section15 > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 100%; }
+  .section15 .title {
+    margin-top: 15%;
+    margin-bottom: 1%; }
+  .section15 p:last-child {
+    margin-top: 90%;
+    margin-bottom: 6rem; }
+
+/*END SECTION 15*/
+/*SECTION 16*/
+.section16 {
+  background: #000000;
+  padding: 15rem 0 15rem 0; }
+  .section16 img {
+    width: 100%; }
+  .section16 .title {
+    margin-bottom: 3rem; }
+  .section16 .text {
+    margin-bottom: 10rem; }
+
+/*END SECTION 16*/
+/*SECTION 17*/
+.section17 {
+  background: #eeecea;
+  padding: 6rem 0; }
+  .section17 img {
+    max-width: 100%; }
+
+/*END SECTION 17*/
+/*SECTION 18*/
+.banner-section.section18 {
+  background: url(../../img/section18-bg.jpg) top center no-repeat;
+  background-size: cover; }
+  .banner-section.section18 .action-button {
+    margin-bottom: 20rem; }
+
+/*END SECTION 18*/
+/*SECTION 19*/
+.section19 {
+  background: url(../../img/section19-bg.jpg) top center no-repeat;
+  background-size: cover;
+  padding: 10rem 0; }
+  .section19 .title {
+    margin-bottom: 4rem; }
+  .section19 .subtitle {
+    margin-bottom: 4rem; }
+  .section19 .text {
+    margin-bottom: 7rem; }
+
+/*END SECTION 19*/
+/*SECTION 20*/
+.section9.type2 .title {
+  margin-bottom: 2rem; }
+
+.section9.type2 .text {
+  margin-bottom: 2rem; }
+
+/*END SECTION 20*/
+/*SECTION 21*/
+.banner-section.section21 {
+  background: url(../../img/section21-bg.jpg) top center no-repeat;
+  background-size: cover; }
+  .banner-section.section21 .title {
+    margin-bottom: 3rem; }
+  .banner-section.section21 .subtitle {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 700;
+    margin-bottom: 2rem; }
+  .banner-section.section21 .text {
+    font-size: 2.5rem !important; }
+
+/*END SECTION 21*/
+/*SECTION 22*/
+.section22 {
+  padding: 5rem 0; }
+  .section22 .title {
+    margin-bottom: 4rem; }
+
+/*END SECTION 22*/
+/*SECTION 23*/
+.section23 {
+  background: #dbd7d3;
+  padding: 10rem 0 0 0; }
+  .section23 .title {
+    margin-bottom: 5rem; }
+  .section23 .gb-gr {
+    padding-bottom: 5rem;
+    background: #dbd7d3;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #dbd7d3 0%, #d2cac8 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #dbd7d3 0%, #d2cac8 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: -webkit-gradient(linear, left top, left bottom, from(#dbd7d3), to(#d2cac8));
+    background: -o-linear-gradient(top, #dbd7d3 0%, #d2cac8 100%);
+    background: linear-gradient(to bottom, #dbd7d3 0%, #d2cac8 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbd7d3', endColorstr='#d2cac8',GradientType=0 );
+    /* IE6-9 */ }
+
+/*END SECTION 23*/
+/* ----------- iPhone 4 and 4S ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .section2 .action-button {
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    display: block; }
+  .section4 .action-button {
+    display: block;
+    margin: 0 auto; }
+  .section6 .title {
+    text-align: center;
+    margin-bottom: 3rem; }
+  .section15 {
+    position: relative; }
+    .section15 > img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; }
+    .section15 .title {
+      margin-top: 5%;
+      margin-bottom: 1%; }
+    .section15 p:last-child {
+      margin-top: 50%; } }
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .banner-section {
+    min-height: 70vh; }
+  .section4 {
+    background-size: cover; }
+  .section4 .action-button {
+    display: block;
+    margin: 0 auto; } }
+
+@media screen and (min-width: 1330px) {
+  .section4 {
+    background-size: cover; } }
+
+@media screen and (min-width: 1680px) {
+  .section4 {
+    background-size: cover; } }
+
+/*ANDROID */
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+  .boxesAT > div {
+    min-height: 620px; } }
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .banner-section {
+    min-height: 70vh; }
+  .location-holder {
+    /*text-align: center !important; */
+    position: absolute;
+    top: 4%;
+    right: 3rem; }
+    .location-holder .location {
+      font-size: 1.8rem margin-right  0; }
+  .center-mobile {
+    text-align: center; }
+  .boxesAT > div {
+    min-height: 720px; } }
+
+/* Landscape */
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .banner-section {
+    min-height: 70vh; }
+  .section4 {
+    background-size: cover; }
+  .section4 .action-button {
+    display: block;
+    margin: 0 auto; }
+  .location-holder {
+    /*text-align: center !important; */
+    position: absolute;
+    top: 4%;
+    right: 3rem; }
+    .location-holder .location {
+      font-size: 1.8rem;
+      margin-right: 0; }
+  .section15 {
+    position: relative; }
+    .section15 > img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; }
+    .section15 .title {
+      margin-top: 5%;
+      margin-bottom: 1%; }
+    .section15 p:last-child {
+      margin-top: 60%; } }
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 636px) and (orientation: portrait) {
+  .boxesAT > div {
+    min-height: 720px; }
+  .section14 .iphone-fix .title {
+    text-align: center;
+    margin-bottom: 2rem; }
+  .section15 {
+    position: relative; }
+    .section15 > img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; }
+    .section15 .title {
+      margin-top: 5%;
+      margin-bottom: 1%; }
+    .section15 p:last-child {
+      margin-top: 50%; } }
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+  .section6 .iphone-fix {
+    width: 100% !important;
+    max-width: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%; }
+  .boxesAT > div {
+    min-height: 720px !important; }
+  .section14 .iphone-fix .title {
+    text-align: left; } }
+
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+@media only screen and (width: 375px) and (height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+  .boxesAT > div {
+    min-height: 720px; }
+  .section15 {
+    position: relative; }
+    .section15 > img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; }
+    .section15 .title {
+      margin-top: 5%;
+      margin-bottom: 1%; }
+    .section15 p:last-child {
+      margin-top: 70%; } }
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .banner-section {
+    min-height: 40vh; }
+  .location-holder {
+    position: static;
+    top: auto;
+    right: auto; }
+  .boxesAT > div {
+    min-height: 720px; }
+  .boxesAT > div {
+    min-height: 10px; } }
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .banner-section {
+    min-height: 70vh; } }
+
+/* ----------- iPad Pro 10.5" ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+/* ----------- iPad Pro 12.9" ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .banner-section {
+    min-height: 70vh; } }
+
+/*iPad in landscape*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .special-line:after {
+    width: 70% !important; } }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .special-line:after {
+    width: 78%; }
+  .section15 {
+    position: relative; }
+    .section15 > img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; }
+    .section15 .title {
+      margin-top: 5%;
+      margin-bottom: 1%; }
+    .section15 p:last-child {
+      margin-top: 70%; } }
+
+/*IPAD PRO*/
+/* Portrait */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .special-line:after {
+    width: 68%; }
+  .section15 {
+    position: relative; }
+    .section15 > img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; }
+    .section15 .title {
+      margin-top: 15%;
+      margin-bottom: 1%; }
+    .section15 p:last-child {
+      margin-top: 90%; } }
+
+/*IPAD PRO*/
+/* Landscape */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .special-line:after {
+    width: 63%; } }
+
+/* (1366x768) WXGA Display */
+@media screen and (max-width: 1680px) {
+  .section15 {
+    position: relative; }
+    .section15 > img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; }
+    .section15 .title {
+      margin-top: 8%;
+      margin-bottom: 1%; }
+    .section15 p:last-child {
+      margin-top: 70%; }
+  .banner-section.section12 {
+    padding-bottom: 10rem;
+    padding-top: 10rem; } }
