@@ -52,6 +52,18 @@ p.text {
   border-color: #FFFFFF;
   color: #FFFFFF; }
 
+
+.noaction-button {
+  cursor: text;
+  padding-left: 0px;
+  font-size: 3.5rem;
+  line-height: 5.5rem;
+  font-weight: 900; }
+
+.noaction-button.white {
+  border-color: #FFFFFF;
+  color: #FFFFFF; }
+
 .text-black {
   color: #000000 !important; }
 
@@ -95,6 +107,11 @@ p.text {
   top: 5%;
   left: 3%; }
 
+  .banner-section .logoright {
+    position: absolute;
+    top: 5%;
+    right: 3%; }
+
 .banner-section > .container {
   /*		bottom: 5%;		
 	@include centeredabsolute-horizontal;*/ }
@@ -104,6 +121,9 @@ p.text {
 
 .banner-section .action-button {
   margin: 2rem 0; }
+
+  .banner-section .noaction-button {
+    margin: 2rem 0; }
 
 .banner-section .location-holder {
   text-align: right; }
@@ -457,6 +477,8 @@ p.heart-special {
   background-size: cover; }
   .banner-section.section18 .action-button {
     margin-bottom: 20rem; }
+    .banner-section.section18 .noaction-button {
+      margin-bottom: 20rem; }
 
 /*END SECTION 18*/
 /*SECTION 19*/
@@ -528,13 +550,22 @@ p.heart-special {
 /* Portrait and Landscape */
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  .section2 .action-button {
+  .section2 .action-button  {
     margin: 0 auto;
     margin-bottom: 5rem;
     display: block; }
-  .section4 .action-button {
+  .section4 .action-button  {
     display: block;
     margin: 0 auto; }
+
+    .section2 .noaction-button {
+      margin: 0 auto;
+      margin-bottom: 5rem;
+      display: block; }
+    .section4 .noaction-button {
+      display: block;
+      margin: 0 auto; }
+    
   .section6 .title {
     text-align: center;
     margin-bottom: 3rem; }
@@ -559,7 +590,11 @@ p.heart-special {
     background-size: cover; }
   .section4 .action-button {
     display: block;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+    .section4 .noaction-button {
+      display: block;
+      margin: 0 auto; }
+  }
 
 @media screen and (min-width: 1330px) {
   .section4 {
@@ -587,7 +622,8 @@ p.heart-special {
     top: 4%;
     right: 3rem; }
     .location-holder .location {
-      font-size: 1.8rem margin-right  0; }
+      font-size: 1.8rem
+ margin-right  0; }
   .center-mobile {
     text-align: center; }
   .boxesAT > div {
@@ -606,6 +642,9 @@ p.heart-special {
   .section4 .action-button {
     display: block;
     margin: 0 auto; }
+    .section4 .noaction-button {
+      display: block;
+      margin: 0 auto; }
   .location-holder {
     /*text-align: center !important; */
     position: absolute;
